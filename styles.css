@@ -1,60 +1,52 @@
-body, html {
-    margin: 0;
-    padding: 0; 
+.main {
+    margin-top: 100px;
 }
 
-img {
-    width: 30%;
-    display: block;
-    margin: 100px auto 20px;
-    min-width: 272px;
+.nav-btn,
+.sub-head {
+    display: flex;
+    justify-content: center;
 }
 
-input {
-    box-sizing: border-box;
+.search-input, 
+.image {
     display: block;
+    margin: 0 auto;
+}
+
+.search-input {
+    width: 400px;
+    line-height: 24px;
+    padding: 10px 30px;
+    border: 1px #dfe1e5 solid;
     border-radius: 24px;
-    border: 1px solid rgb(223, 225, 229);
-    height: 44px;
-    margin: 0 auto 29px;
-    max-width: 564px;
-    width: 90%;
-    padding-left: 30px;
-    font-size: 16px;
 }
 
-button {
-    box-sizing: border-box;
-    margin-top: 0;
-    padding: 0 16px;
+.image {
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    margin: 30px 4px;
+    background-color: #dfe1e5;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
     font-size: 14px;
-    height: 36px;
-    background-color: #f8f9fa;
-    border: 1px solid #f8f9fa;
-    cursor: pointer;
 }
 
-button:first-of-type {
-    margin-right: 8px;
-    margin-left: calc(50% - 131.5px);
+.link {
+    padding: 0;
 }
-
-button::hover {
-    cursor: pointer;
-}
-
-p {
-    text-align: center;
-    margin-top:40px;
-}
-
 /* nav */
 
 .nav {
     overflow: hidden;
 }
 
-.nav a {
+.left,
+.right {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
